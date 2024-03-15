@@ -32,7 +32,7 @@ def parse_args():
         RED = "\033[91m"
         ENDC = "\033[0m"
         # Print error message and exit if no input files are provided.
-        print("pyc: " + RED + "fatal error:" + ENDC + " no input files")
+        print("pycx2: " + RED + "fatal error:" + ENDC + " no input files")
         print("compilation terminated.")
         sys.exit(-1)
     sys.argv.pop(0)
