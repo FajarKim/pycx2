@@ -34,10 +34,16 @@ PYCX2 adalah kompiler kode Python 2 yang menggunakan Cython untuk peningkatan ki
 
 ## Instalasi
 
-Anda dapat menginstal `pycx2` menggunakan pip:
+Anda dapat menginstal `pycx2` menggunakan `pip`:
 
 ```bash
 pip install pycx2
+```
+
+atau gunakan `pip2`:
+
+```bash
+pip2 install pycx2
 ```
 
 ## Penggunaan
@@ -85,7 +91,7 @@ Terima kasih telah memilih PYCX2! Kami bertujuan untuk memberikan solusi yang am
   <img src="https://raw.githubusercontent.com/FajarKim/FajarKim/master/images/line.svg?sanitize=true"/>
 </div>
 
-<p align="center">Made with ❤️ and Python</p>
+<p align="center">Dibuat dengan ❤️ dan Python</p>
 <p align="center">Copyright © 2024 Rangga Fajar Oktariansyah</p>
 <div align="center">
   <a href="https://github.com/FajarKim/pycx2/blob/master/LICENSE"><img src="https://custom-icon-badges.demolab.com/github/license/FajarKim/pycx2?label=License&labelColor=302d41&color=91d7e3&logo=law&logoColor=d9e0ee&style=for-the-badge" alt="License"></a>

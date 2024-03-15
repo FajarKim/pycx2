@@ -34,10 +34,16 @@ PYCX2 is a Python 2 code compiler that utilizes Cython for performance enhanceme
 
 ## Installation
 
-You can install `pycx2` using pip:
+You can install `pycx2` using `pip`:
 
 ```bash
 pip install pycx2
+```
+
+or use `pip2`:
+
+```bash
+pip2 install pycx2
 ```
 
 ## Usage
