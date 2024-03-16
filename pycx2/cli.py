@@ -18,15 +18,11 @@ For more information and updates, visit: https://github.com/FajarKim/pycx2
 
 import subprocess
 import sys
-
 from compile import compile as compile_
 
 def parse_args():
     """
     Parse command-line arguments.
-
-    Returns:
-        tuple: A tuple containing the source file path and remaining command-line arguments.
     """
     if len(sys.argv) < 2:
         RED = "\033[91m"
@@ -52,9 +48,6 @@ def compile():
 def compile_and_run():
     """
     Compile and run the specified source file.
-
-    Returns:
-        int: The return code from the compilation and execution process.
     """
     source_file, argv = parse_args()
     return_code, executable = compile_(source_file)

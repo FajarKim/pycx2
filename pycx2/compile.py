@@ -22,13 +22,6 @@ from Cython.Compiler import Options
 def compile(source_file, verbose=False):
     """
     Compile Python2 source file to executable using Cython.
-
-    Args:
-        source_file (str): Path to the Python source file.
-        verbose (bool): If True, print detailed compilation information.
-
-    Returns:
-        tuple: A tuple containing the return code from the compilation process and the executable path.
     """
     basename = os.path.splitext(source_file)[0]
     c_file = basename + ".c"
