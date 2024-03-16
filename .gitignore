@@ -1,3 +1,8 @@
 dist/
 build/
 *egg-info/
+
+pycx2/__init__.pyc
+pycx2/__main__.pyc
+pycx2/cli.pyc
+pycx2/compile.pyc
